@@ -1,0 +1,218 @@
+body {
+    background-color: rgb(255, 228, 139);
+}
+.cabecera {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-shadow: rgb(65, 60, 60);
+    background-color: rgb(252, 193, 85);
+    border-radius: 15px;
+}
+.container-0 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 2rem;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.google {
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.google:hover {
+    cursor: pointer;
+
+    
+}
+
+.facebook {
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.facebook:hover {
+    cursor: pointer;
+
+}
+
+.twitter {
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.twitter:hover {
+    cursor: pointer;
+
+}
+
+.instagram {
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.instagram:hover {
+    cursor: pointer;
+
+}
+
+.barra {
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+
+.container-1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.Formulario {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px;
+    box-shadow: grey;
+    border-radius: 20px black;
+    border-bottom: 7px black;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.input:hover {
+    cursor: pointer;
+    box-shadow:  3px 3px 3px  rgb(243, 82, 157);
+    transition: 0.4s;
+    border-color: rgb(255, 167, 3);
+}
+
+.name {
+padding: 10px 10px 10px;
+justify-content: center;
+align-items: center;
+}
+
+
+.password {
+    padding: 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    padding: 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phone {
+    padding: 10px 10px 10px;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.btn-confirmar {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: white;
+
+}
+
+.btn-info {
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.btn-info:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(243, 82, 157);
+    transition: 0.4s;
+    border-color: rgb(255, 167, 3);
+}
+
+.btn-confirmar:hover {
+    cursor: pointer;
+    box-shadow:  3px 3px 3px  rgb(243, 82, 157);
+    transition: 0.4s;
+    border-color: rgb(255, 167, 3);
+}
+
+.parrafo {
+    font-size: 25px;
+    text-align: center;
+}
+
+.direccion {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 600px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.direccion:hover {
+    cursor: pointer;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+
+.ingresar {
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+
+.ingresar:hover {
+    cursor: pointer;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
